@@ -32,5 +32,7 @@ Such models can enhance current education systems through:
 
 # Citations
 [1] Z. Wang, A. Lamb, E. Saveliev, P. Cameron, Y. Zaykov, J. M. Hernández-Lobato, R. E. Turner, R. G. Baraniuk, C. Barton, S. P. Jones, S. Woodhead, and C. Zhang, "Diagnostic questions: The neurips 2020 education challenge," arXiv preprint arXiv:2007.12061, 2020.
+
 [2] I developed this project as part of my CSC 311: Introduction To Machine Learning class. The course staff provided certain data processing functions to facilitate it, which can be found in the 'utils.py' file.
+
 [3] Dohyun Kim collaborated with me on this project. Dohyun focused on exploring two other approaches for prediction – kNN models and Information Response Theory-based models. The code stored on my GitHub represents only my portion of the work and is separate from Dohyun's contributions.
