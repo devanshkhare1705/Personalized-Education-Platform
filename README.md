@@ -6,7 +6,7 @@ This project aims to use machine learning methods to predict if students will an
 # Background
 Using an AI model can help gauge student readingess by spotting low-level connections between educational topics. For example, an incorrect answer in one topic may reveal misunderstandings in another topic.
 
-While volunteering as a teacher in Mumbai, I realized the importance of spotting these connections to help students build strong foundations. However, it was often challenging to catch every link for every student due to their unique ways of understanding, large class sizes and even my own unawareness of certain connections.
+While volunteering as a teacher in Mumbai, I realized the importance of spotting these connections to help students build strong foundations. However, it was challenging to catch every link for every student due to their unique ways of understanding, large class sizes and even my own unawareness of certain connections.
 
 AI can support teachers in these areas. It could not only pinpoint various knowledge gaps for a student, but also suggest tailored teaching methods for them.
 
@@ -27,7 +27,7 @@ Such models can enhance current education systems through:
 
 1. Dynamic updates of questions during a test for comprehensive identification of each individual’s knowledge gaps
 2. Integration with LLMs to deliver customized mini-lessons after knowledge gap diagnosis
-3. Integration with AI-driven webscrapers to provide effective online videos to resolve knowledge gaps
+3. Integration with AI-driven webscrapers to provide appropriate online videos to resolve knowledge gaps
 4. Generation of informative educator-facing reports on a class’ most common weaknesses for lesson design
 
 # Citations
