@@ -11,12 +11,12 @@ While volunteering as a teacher in Mumbai, I realized the importance of spotting
 AI can support teachers in these areas. It could not only pinpoint various knowledge gaps for a student, but also suggest tailored teaching methods for them.
 
 # Technical Implementation
-This project uses machine learning models to predict if a student will answer a particular question correctly based on their past answer, which implies that the model is learning low-level connections between the questions. I used the EEDI dataset for training, validation, and testing, which includes responses from 542 students to 1,774 math diagnostic questions. This dataset has three columns: Student ID, Question ID, and whether the answer was correct [1].
+This project uses machine learning models to predict if a student will answer a particular question correctly based on their previous answers, which implies that the model is learning low-level connections between the questions. I used the EEDI dataset for training, validation, and testing, which includes responses from 542 students to 1,774 math diagnostic questions. This dataset has three columns: Student ID, Question ID, and whether the answer was correct [1].
 
 I used three different approaches to find the best model: basic autoencoders, optimized autoencoders, and ensemble models. Optimizations included dropout, L2 regularization, momentum, and early stopping with patience, among others.
 
 # Project Results
-The best model in this project had a test accuracy of 68.7%. This can be improved by:
+The best model in this project had a test accuracy of 68.7%. I believe this can be improved even further by:
 
 1. Adding more inputs such as age, gender, financial background, and the questions themselves.
 2. Using bigger datasets. The current dataset is limited for each age because it spans students aged 8 through 17. More data for each age would facilitate comparability, yielding clearer insights.
