@@ -11,7 +11,7 @@ While volunteering as a teacher in Mumbai, I realized the importance of spotting
 AI can support teachers in these areas. It could not only pinpoint various knowledge gaps for a student, but also suggest tailored teaching methods for them.
 
 # Technical Implementation
-This project uses machine learning models to predict if a student will answer a particular question correctly based on their previous answers, which implies that the model is learning low-level connections between the questions. I used the EEDI dataset for training, validation, and testing, which includes responses from 542 students to 1,774 math diagnostic questions. This dataset has three columns: Student ID, Question ID, and whether the answer was correct [1].
+This project uses machine learning models to predict if a student will answer a particular question correctly based on their previous answers. I used the EEDI dataset for training, validation, and testing, which includes responses from 542 students to 1,774 math diagnostic questions. This dataset has three columns: Student ID, Question ID, and whether the answer was correct [1].
 
 I used three different approaches to find the best model: basic autoencoders, optimized autoencoders, and ensemble models. Optimizations included dropout, L2 regularization, momentum, and early stopping with patience, among others.
 
@@ -33,6 +33,6 @@ Such models can enhance current education systems through:
 # Citations
 [1] Z. Wang, A. Lamb, E. Saveliev, P. Cameron, Y. Zaykov, J. M. Hernández-Lobato, R. E. Turner, R. G. Baraniuk, C. Barton, S. P. Jones, S. Woodhead, and C. Zhang, "Diagnostic questions: The neurips 2020 education challenge," arXiv preprint arXiv:2007.12061, 2020.
 
-[2] I developed this project as part of my CSC 311: Introduction To Machine Learning class. The course staff provided certain data processing functions to facilitate it, which can be found in the 'utils.py' file.
+[2] I developed this project as part of my CSC 311: Introduction To Machine Learning class. The course staff helped me with functions to facilitate data acquisition and processing, which can be found in the 'utils.py' file.
 
 [3] Dohyun Kim collaborated with me on this project. Dohyun focused on exploring two other approaches for prediction – kNN models and Information Response Theory-based models. The code stored on my GitHub represents only my portion of the work and is separate from Dohyun's contributions.
