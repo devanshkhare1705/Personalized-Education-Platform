@@ -4,9 +4,9 @@
 This project aims to use machine learning methods to predict if students will answer a specific question correctly based on their previous answers.
 
 # Background
-Using an AI model can help gauge student readingess by spotting low-level connections between educational topics. For example, an incorrect answer in one topic may reveal misunderstandings in another topic.
+Using an AI model can help gauge student readiness by spotting low-level connections between educational topics. For example, an incorrect answer in one topic may reveal misunderstandings in another topic.
 
-While volunteering as a teacher in Mumbai, I realized the importance of spotting these connections to help students build strong foundations. However, it was challenging to catch every link for every student due to their unique ways of understanding, large class sizes and even my own unawareness of certain connections.
+While volunteering as a teacher in Mumbai, I realized the importance of spotting these connections to help students build strong foundations. However, it was challenging to catch every link for every student due to their unique ways of understanding, large class sizes, and even my own unawareness of certain connections.
 
 AI can support teachers in these areas. It could not only pinpoint various knowledge gaps for a student, but also suggest tailored teaching methods for them.
 
@@ -16,9 +16,9 @@ This project uses machine learning models to predict if a student will answer a 
 I used three different approaches to find the best model: basic autoencoders, optimized autoencoders, and ensemble models. Optimizations included dropout, L2 regularization, momentum, and early stopping with patience, among others.
 
 # Project Results
-The best model in this project had a test accuracy of 68.7%. I believe this can be improved even further by:
+The best model in this project had a test accuracy of 68.7%. I believe this can be improved further by:
 
-1. Adding more inputs such as age, gender, financial background, and the questions themselves.
+1. Adding more inputs such as age, gender, financial background, and the questions in natural language form.
 2. Using bigger datasets. The current dataset is limited for each age because it spans students aged 8 through 17. More data for each age would facilitate comparability, yielding clearer insights.
 3. Employing deeper architectures, while ensuring sufficient data and inputs to prevent overfitting.
 
